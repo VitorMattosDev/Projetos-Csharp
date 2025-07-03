@@ -1,0 +1,11 @@
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\bin\Debug\SistemaCadastroForms.exe.config
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\bin\Debug\SistemaCadastroForms.exe
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\bin\Debug\SistemaCadastroForms.pdb
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\obj\Debug\SistemaCadastroForms.csproj.AssemblyReference.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\obj\Debug\SistemaCadastroForms.Form1.resources
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\obj\Debug\SistemaCadastroForms.Properties.Resources.resources
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\obj\Debug\SistemaCadastroForms.csproj.GenerateResource.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\obj\Debug\SistemaCadastroForms.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\obj\Debug\SistemaCadastroForms.exe
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\obj\Debug\SistemaCadastroForms.pdb
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\SistemaCadastroForms\obj\Debug\SistemaCadastroForms.exe.config
