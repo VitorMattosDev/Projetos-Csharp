@@ -1,0 +1,14 @@
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\bin\Debug\net8.0\MediaAlunosPOO.exe
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\bin\Debug\net8.0\MediaAlunosPOO.deps.json
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\bin\Debug\net8.0\MediaAlunosPOO.runtimeconfig.json
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\bin\Debug\net8.0\MediaAlunosPOO.dll
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\bin\Debug\net8.0\MediaAlunosPOO.pdb
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\MediaAlunosPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\MediaAlunosPOO.AssemblyInfoInputs.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\MediaAlunosPOO.AssemblyInfo.cs
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\MediaAlunosPOO.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\MediaAlunosPOO.dll
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\refint\MediaAlunosPOO.dll
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\MediaAlunosPOO.pdb
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\MediaAlunosPOO.genruntimeconfig.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\MediaAlunosPOO\obj\Debug\net8.0\ref\MediaAlunosPOO.dll
