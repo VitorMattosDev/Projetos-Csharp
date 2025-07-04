@@ -39,9 +39,9 @@
             this.checkCasa = new System.Windows.Forms.CheckBox();
             this.checkVeiculo = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioM = new System.Windows.Forms.RadioButton();
-            this.radioF = new System.Windows.Forms.RadioButton();
             this.radioO = new System.Windows.Forms.RadioButton();
+            this.radioF = new System.Windows.Forms.RadioButton();
+            this.radioM = new System.Windows.Forms.RadioButton();
             this.lista = new System.Windows.Forms.ListBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
@@ -155,16 +155,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sexo";
             // 
-            // radioM
+            // radioO
             // 
-            this.radioM.AutoSize = true;
-            this.radioM.Location = new System.Drawing.Point(11, 34);
-            this.radioM.Name = "radioM";
-            this.radioM.Size = new System.Drawing.Size(89, 20);
-            this.radioM.TabIndex = 0;
-            this.radioM.TabStop = true;
-            this.radioM.Text = "Masculino";
-            this.radioM.UseVisualStyleBackColor = true;
+            this.radioO.AutoSize = true;
+            this.radioO.Location = new System.Drawing.Point(11, 115);
+            this.radioO.Name = "radioO";
+            this.radioO.Size = new System.Drawing.Size(60, 20);
+            this.radioO.TabIndex = 2;
+            this.radioO.TabStop = true;
+            this.radioO.Text = "Outro";
+            this.radioO.UseVisualStyleBackColor = true;
             // 
             // radioF
             // 
@@ -177,16 +177,17 @@
             this.radioF.Text = "Feminino";
             this.radioF.UseVisualStyleBackColor = true;
             // 
-            // radioO
+            // radioM
             // 
-            this.radioO.AutoSize = true;
-            this.radioO.Location = new System.Drawing.Point(11, 115);
-            this.radioO.Name = "radioO";
-            this.radioO.Size = new System.Drawing.Size(60, 20);
-            this.radioO.TabIndex = 2;
-            this.radioO.TabStop = true;
-            this.radioO.Text = "Outro";
-            this.radioO.UseVisualStyleBackColor = true;
+            this.radioM.AutoSize = true;
+            this.radioM.Checked = true;
+            this.radioM.Location = new System.Drawing.Point(11, 34);
+            this.radioM.Name = "radioM";
+            this.radioM.Size = new System.Drawing.Size(89, 20);
+            this.radioM.TabIndex = 0;
+            this.radioM.TabStop = true;
+            this.radioM.Text = "Masculino";
+            this.radioM.UseVisualStyleBackColor = true;
             // 
             // lista
             // 
@@ -206,6 +207,7 @@
             this.btnCadastrar.TabIndex = 12;
             this.btnCadastrar.Text = "Cadastrar / Alterar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // btnExcluir
             // 
@@ -215,6 +217,7 @@
             this.btnExcluir.TabIndex = 13;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnLimpar
             // 
@@ -224,6 +227,7 @@
             this.btnLimpar.TabIndex = 14;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // Form1
             // 
