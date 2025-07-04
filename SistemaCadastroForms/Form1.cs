@@ -34,6 +34,7 @@ namespace SistemaCadastroForms
 
         }
 
+        //IMPLEMENTA O BOTÃO CADASTRAR
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
 
