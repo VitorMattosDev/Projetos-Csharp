@@ -55,7 +55,7 @@ namespace SistemaCadastroForms
                 return;
             }
 
-            if(txtTelefone.Text == "")
+            if(txtTelefone.Text == "(  )      -")
             {
                 MessageBox.Show("Preencha o campo Telefone");
                 txtTelefone.Focus();
@@ -102,11 +102,23 @@ namespace SistemaCadastroForms
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-
+            int indice = lista.SelectedIndex;
+            pessoas.RemoveAt(indice);
+            Listar();
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
+            txtNome.Text = "";
+            txtData.Text = "";
+            comboEC.SelectedIndex = 0;
+            txtTelefone.Text = "";
+            checkCasa.Checked = false;
+            checkVeiculo.Checked = false;
+            radioM.Checked = true;
+            radioF.Checked = false;
+            radioO.Checked = false;
+            txtNome.Focus();
 
         }
 
@@ -118,6 +130,33 @@ namespace SistemaCadastroForms
             {
                 lista.Items.Add(p.Nome);
             }
+        }
+
+        private void lista_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            int indice = lista.SelectedIndex;
+            Pessoa p = pessoas[indice];
+
+            txtNome.Text = p.Nome;
+            txtData.Text = p.DataNascimento;
+            comboEC.Text = p.EstadoCivil;
+            txtTelefone.Text = p.Telefone;
+            checkCasa.Checked = p.CasaPropria;
+            checkVeiculo.Checked = p.Veiculo;
+
+            switch (p.Sexo)
+            {
+                case 'M':
+                    radioM.Checked = true;
+                    break;
+                case 'F':
+                    radioF.Checked = true;
+                    break;
+                default:
+                    radioO.Checked = true;
+                    break;
+            }
+
         }
     }
 }
