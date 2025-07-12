@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|c:\\users\\vitor\\desktop\\curso-c#\\projetos\\sistemalogin\\cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|solutionrelative:cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|c:\\users\\vitor\\desktop\\curso-c#\\projetos\\sistemalogin\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|c:\\users\\vitor\\desktop\\curso-c#\\projetos\\sistemalogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5959908F-F57D-4C2F-A165-8CCC1CC56ECA}|SistemaLogin.csproj|C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,46 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CadastroUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\CadastroUsuarios.cs",
-              "RelativeDocumentMoniker": "CadastroUsuarios.cs",
-              "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\CadastroUsuarios.cs",
-              "RelativeToolTip": "CadastroUsuarios.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwCQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T01:03:36.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\Usuario.cs",
-              "RelativeDocumentMoniker": "Usuario.cs",
-              "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\Usuario.cs",
-              "RelativeToolTip": "Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T01:02:25.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\FormLogin.cs",
               "RelativeDocumentMoniker": "FormLogin.cs",
               "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\FormLogin.cs",
               "RelativeToolTip": "FormLogin.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAArwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T00:55:05.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\FormLogin.cs",
               "RelativeDocumentMoniker": "FormLogin.cs",
@@ -97,15 +71,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "CadastroUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\CadastroUsuarios.cs",
+              "RelativeDocumentMoniker": "CadastroUsuarios.cs",
+              "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\CadastroUsuarios.cs",
+              "RelativeToolTip": "CadastroUsuarios.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T01:03:36.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAArwBYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAC0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T00:37:55.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.cs",
+              "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\SistemaLogin\\Usuario.cs",
+              "RelativeToolTip": "Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T01:02:25.586Z",
               "EditorCaption": ""
             },
             {
