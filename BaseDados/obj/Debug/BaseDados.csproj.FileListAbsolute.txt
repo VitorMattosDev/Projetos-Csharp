@@ -1,0 +1,14 @@
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\BaseDados.exe.config
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\BaseDados.exe
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\BaseDados.pdb
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.csproj.AssemblyReference.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.Form1.resources
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.Properties.Resources.resources
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.csproj.GenerateResource.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.csproj.Up2Date
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.exe
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.pdb
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.exe.config
