@@ -14,6 +14,8 @@ using System.IO;
 //SQLITE
 using System.Data.SQLite;
 
+//MySQL
+using MySql.Data.MySqlClient;
 namespace BaseDados
 {
     public partial class Form1 : Form
@@ -89,6 +91,39 @@ namespace BaseDados
             //{
             //    conexao.Close();
             //}
+            #endregion
+
+            #region MySQL
+            string strConnection1 = "server=127.0.0.1;User Id=root;password=";
+            //string strConnection2 = "server=127.0.0.1;User Id=root;database=curso_db;password=123";
+            MySqlConnection conexao = new MySqlConnection(strConnection1);
+
+            try
+            {
+
+                conexao.Open();
+
+                labelResultado.Text = "Conectado MySql";
+
+                MySqlCommand comando = new MySqlCommand();
+
+                comando.Connection = conexao;
+                comando.CommandText = "CREATE DATABASE IF NOT EXISTS curso_db";
+
+                comando.ExecuteNonQuery();
+
+                labelResultado.Text = "Base de dados criada com sucesso";
+                comando.Dispose();
+
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = "Erro ao Conectar MySql\n" + ex;
+            }
+            finally
+            {
+                conexao.Close();
+            }
             #endregion
         }
     }

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{5BA40C40-4606-46CF-BD6C-70ED474F3FDD}|BaseDados.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BA40C40-4606-46CF-BD6C-70ED474F3FDD}|BaseDados.csproj|c:\\users\\vitor\\desktop\\curso-c#\\projetos\\basedados\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5BA40C40-4606-46CF-BD6C-70ED474F3FDD}|BaseDados.csproj|C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5BA40C40-4606-46CF-BD6C-70ED474F3FDD}|BaseDados.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAFsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv3MAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-07T00:33:55.478Z",
               "EditorCaption": ""
@@ -50,8 +50,7 @@
               "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:13:03.744Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-07T00:13:03.744Z"
             }
           ]
         }

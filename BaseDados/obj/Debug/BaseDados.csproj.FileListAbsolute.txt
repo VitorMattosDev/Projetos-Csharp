@@ -12,3 +12,7 @@ C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.csproj.Up
 C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.exe
 C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.pdb
 C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\obj\Debug\BaseDados.exe.config
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\MySql.Data.dll
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\System.Memory.dll
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\vitor\Desktop\Curso-C#\PROJETOS\BaseDados\bin\Debug\MySql.Data.xml
