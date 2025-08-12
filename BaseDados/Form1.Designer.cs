@@ -51,7 +51,7 @@
             this.labelResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelResultado.Location = new System.Drawing.Point(12, 18);
             this.labelResultado.Name = "labelResultado";
-            this.labelResultado.Size = new System.Drawing.Size(489, 56);
+            this.labelResultado.Size = new System.Drawing.Size(954, 56);
             this.labelResultado.TabIndex = 0;
             this.labelResultado.Text = "Resultado";
             // 
@@ -128,7 +128,7 @@
             // btnConectar
             // 
             this.btnConectar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConectar.Location = new System.Drawing.Point(759, 65);
+            this.btnConectar.Location = new System.Drawing.Point(758, 81);
             this.btnConectar.Name = "btnConectar";
             this.btnConectar.Size = new System.Drawing.Size(195, 68);
             this.btnConectar.TabIndex = 6;
@@ -139,17 +139,18 @@
             // btnCriarTabela
             // 
             this.btnCriarTabela.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCriarTabela.Location = new System.Drawing.Point(759, 156);
+            this.btnCriarTabela.Location = new System.Drawing.Point(758, 172);
             this.btnCriarTabela.Name = "btnCriarTabela";
             this.btnCriarTabela.Size = new System.Drawing.Size(195, 68);
             this.btnCriarTabela.TabIndex = 7;
             this.btnCriarTabela.Text = "criar tabela";
             this.btnCriarTabela.UseVisualStyleBackColor = true;
+            this.btnCriarTabela.Click += new System.EventHandler(this.btnCriarTabela_Click);
             // 
             // btnInserir
             // 
             this.btnInserir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInserir.Location = new System.Drawing.Point(759, 247);
+            this.btnInserir.Location = new System.Drawing.Point(758, 263);
             this.btnInserir.Name = "btnInserir";
             this.btnInserir.Size = new System.Drawing.Size(195, 68);
             this.btnInserir.TabIndex = 8;
@@ -159,7 +160,7 @@
             // btnProcurar
             // 
             this.btnProcurar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnProcurar.Location = new System.Drawing.Point(759, 338);
+            this.btnProcurar.Location = new System.Drawing.Point(758, 354);
             this.btnProcurar.Name = "btnProcurar";
             this.btnProcurar.Size = new System.Drawing.Size(195, 68);
             this.btnProcurar.TabIndex = 9;
@@ -169,7 +170,7 @@
             // btnExcluir
             // 
             this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExcluir.Location = new System.Drawing.Point(759, 429);
+            this.btnExcluir.Location = new System.Drawing.Point(758, 445);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(195, 68);
             this.btnExcluir.TabIndex = 10;
@@ -179,7 +180,7 @@
             // btnEditar
             // 
             this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditar.Location = new System.Drawing.Point(759, 520);
+            this.btnEditar.Location = new System.Drawing.Point(758, 536);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(195, 68);
             this.btnEditar.TabIndex = 11;

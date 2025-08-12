@@ -95,7 +95,7 @@ namespace BaseDados
 
             #region MySQL
             string strConnection1 = "server=127.0.0.1;User Id=root;password=";
-            //string strConnection2 = "server=127.0.0.1;User Id=root;database=curso_db;password=123";
+            //string strConnection2 = "server=127.0.0.1;User Id=root;database=curso_db;password=";
             MySqlConnection conexao = new MySqlConnection(strConnection1);
 
             try
@@ -119,6 +119,96 @@ namespace BaseDados
             catch (Exception ex)
             {
                 labelResultado.Text = "Erro ao Conectar MySql\n" + ex;
+            }
+            finally
+            {
+                conexao.Close();
+            }
+            #endregion
+        }
+
+        private void btnCriarTabela_Click(object sender, EventArgs e)
+        {
+            #region SQL SERVER CE
+            //string baseDados = Application.StartupPath + @"\db\DBSQLServer.sdf";
+            //string strConection = @"DataSource = " + baseDados + "; Password = '1234'";
+
+            //SqlCeConnection conexao = new SqlCeConnection(strConection);
+
+            //try
+            //{
+            //    conexao.Open();
+
+            //    SqlCeCommand comando = new SqlCeCommand();
+            //    comando.Connection = conexao;
+
+            //    comando.CommandText = "CREATE TABLE pessoas (id INT NOT NULL PRIMARY KEY, nome NVARCHAR(50), email NVARCHAR(50))";
+            //    comando.ExecuteNonQuery();
+
+            //    labelResultado.Text = "Tabela criada Sql Server Ce";
+            //    comando.Dispose();
+            //}
+            //catch (Exception ex)
+            //{
+            //    labelResultado.Text = ex.Message;
+            //}
+            //finally
+            //{
+            //    conexao.Close();
+            //}
+            #endregion
+
+            #region SQLITE
+            //string baseDados = Application.StartupPath + @"\db\DBSQLite.db";
+            //string strConection = @"Data Source = " + baseDados + "; Version = 3";
+
+
+            //SQLiteConnection conexao = new SQLiteConnection(strConection);
+
+            //try
+            //{
+            //    conexao.Open();
+
+            //    SQLiteCommand comando = new SQLiteCommand();
+            //    comando.Connection = conexao;
+
+            //    comando.CommandText = "CREATE TABLE pessoas (id INT NOT NULL PRIMARY KEY, nome NVARCHAR(50), email NVARCHAR(50))";
+            //    comando.ExecuteNonQuery();
+
+            //    labelResultado.Text = "Tabela criada SQLite";
+            //    comando.Dispose();
+            //}
+            //catch (Exception ex)
+            //{
+            //    labelResultado.Text = ex.Message;
+            //}
+            //finally
+            //{
+            //    conexao.Close();
+            //}
+            #endregion
+
+            #region MySQL
+            string strConnection = "server=127.0.0.1;User Id=root;database=curso_db;password=";
+
+            MySqlConnection conexao = new MySqlConnection(strConnection);
+
+            try
+            {
+                conexao.Open();
+
+                MySqlCommand comando = new MySqlCommand();
+                comando.Connection = conexao;
+
+                comando.CommandText = "CREATE TABLE pessoas (id INT NOT NULL, nome VARCHAR(50), email VARCHAR(50), PRIMARY KEY(id))";
+                comando.ExecuteNonQuery();
+
+                labelResultado.Text = "Tabela criada MySQL";
+                comando.Dispose();
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = ex.Message;
             }
             finally
             {

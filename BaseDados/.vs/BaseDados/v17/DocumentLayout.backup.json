@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,19 +30,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAGIAAAAAAAAAAADwv3MAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:33:55.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\Form1.cs",
@@ -50,7 +37,21 @@
               "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T00:13:03.744Z"
+              "WhenOpened": "2025-08-07T00:13:03.744Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\vitor\\Desktop\\Curso-C#\\PROJETOS\\BaseDados\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAM0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T00:33:55.478Z",
+              "EditorCaption": ""
             }
           ]
         }
