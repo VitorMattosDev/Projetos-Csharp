@@ -156,6 +156,7 @@
             this.btnInserir.TabIndex = 8;
             this.btnInserir.Text = "inserir";
             this.btnInserir.UseVisualStyleBackColor = true;
+            this.btnInserir.Click += new System.EventHandler(this.btnInserir_Click);
             // 
             // btnProcurar
             // 
@@ -166,6 +167,7 @@
             this.btnProcurar.TabIndex = 9;
             this.btnProcurar.Text = "procurar";
             this.btnProcurar.UseVisualStyleBackColor = true;
+            this.btnProcurar.Click += new System.EventHandler(this.btnProcurar_Click);
             // 
             // btnExcluir
             // 
