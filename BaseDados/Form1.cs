@@ -220,36 +220,36 @@ namespace BaseDados
         private void btnInserir_Click(object sender, EventArgs e)
         {
             #region SQL SERVER CE
-            string baseDados = Application.StartupPath + @"\db\DBSQLServer.sdf";
-            string strConection = @"DataSource = " + baseDados + "; Password = '1234'";
+            //string baseDados = Application.StartupPath + @"\db\DBSQLServer.sdf";
+            //string strConection = @"DataSource = " + baseDados + "; Password = '1234'";
 
-            SqlCeConnection conexao = new SqlCeConnection(strConection);
+            //SqlCeConnection conexao = new SqlCeConnection(strConection);
 
-            try
-            {
-                conexao.Open();
+            //try
+            //{
+            //    conexao.Open();
 
-                SqlCeCommand comando = new SqlCeCommand();
-                comando.Connection = conexao;
+            //    SqlCeCommand comando = new SqlCeCommand();
+            //    comando.Connection = conexao;
 
-                int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
-                string nome = txtNome.Text;
-                string email = txtEmail.Text;
+            //    int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
+            //    string nome = txtNome.Text;
+            //    string email = txtEmail.Text;
 
-                comando.CommandText = $"INSERT INTO pessoas VALUES({id}, '{nome}', '{email}');";
-                comando.ExecuteNonQuery();
+            //    comando.CommandText = $"INSERT INTO pessoas VALUES({id}, '{nome}', '{email}');";
+            //    comando.ExecuteNonQuery();
 
-                labelResultado.Text = "Registro inserido Sql Server Ce";
-                comando.Dispose();
-            }
-            catch (Exception ex)
-            {
-                labelResultado.Text = ex.Message;
-            }
-            finally
-            {
-                conexao.Close();
-            }
+            //    labelResultado.Text = "Registro inserido Sql Server Ce";
+            //    comando.Dispose();
+            //}
+            //catch (Exception ex)
+            //{
+            //    labelResultado.Text = ex.Message;
+            //}
+            //finally
+            //{
+            //    conexao.Close();
+            //}
             #endregion
 
             #region SQLITE
@@ -326,23 +326,103 @@ namespace BaseDados
 
             #region SQL SERVER CE
 
-            string baseDados = Application.StartupPath + @"\db\DBSQLServer.sdf";
-            string strConection = @"DataSource = " + baseDados + "; Password = '1234'";
+            //string baseDados = Application.StartupPath + @"\db\DBSQLServer.sdf";
+            //string strConection = @"DataSource = " + baseDados + "; Password = '1234'";
 
-            SqlCeConnection conexao = new SqlCeConnection(strConection);
+            //SqlCeConnection conexao = new SqlCeConnection(strConection);
+
+            //try
+            //{
+
+            //    string query = "SELECT * FROM pessoas";
+
+            //    if(txtNome.Text != "")
+            //    {
+            //        query = "SELECT * FROM pessoas WHERE nome LIKE '" + txtNome.Text + "';";
+            //    }
+
+            //    DataTable dados = new DataTable();
+            //    SqlCeDataAdapter adaptador = new SqlCeDataAdapter(query, strConection);
+
+            //    conexao.Open();
+
+            //    adaptador.Fill(dados);
+
+            //    foreach (DataRow linha in dados.Rows)
+            //    {
+            //        lista.Rows.Add(linha.ItemArray);
+            //    }
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    lista.Rows.Clear();
+            //    labelResultado.Text = ex.Message;
+            //}
+            //finally
+            //{
+            //    conexao.Close();
+            //}
+            #endregion
+
+            #region SQLite
+
+            //string baseDados = Application.StartupPath + @"\db\DBSQLite.db";
+            //string strConection = @"Data Source = " + baseDados + "; Version = 3";
+
+            //SQLiteConnection conexao = new SQLiteConnection(strConection);
+
+            //try
+            //{
+
+            //    string query = "SELECT * FROM pessoas";
+
+            //    if (txtNome.Text != "")
+            //    {
+            //        query = "SELECT * FROM pessoas WHERE nome LIKE '" + txtNome.Text + "';";
+            //    }
+
+            //    DataTable dados = new DataTable();
+            //    SQLiteDataAdapter adaptador = new SQLiteDataAdapter(query, strConection);
+
+            //    conexao.Open();
+
+            //    adaptador.Fill(dados);
+
+            //    foreach (DataRow linha in dados.Rows)
+            //    {
+            //        lista.Rows.Add(linha.ItemArray);
+            //    }
+
+            //}
+            //catch (Exception ex)
+            //{
+            //    lista.Rows.Clear();
+            //    labelResultado.Text = ex.Message;
+            //}
+            //finally
+            //{
+            //    conexao.Close();
+            //}
+            #endregion
+
+            #region MySQL
+            string strConnection = "server=127.0.0.1;User Id=root;database=curso_db;password=";
+
+            MySqlConnection conexao = new MySqlConnection(strConnection);
 
             try
             {
 
                 string query = "SELECT * FROM pessoas";
 
-                if(txtNome.Text != "")
+                if (txtNome.Text != "")
                 {
                     query = "SELECT * FROM pessoas WHERE nome LIKE '" + txtNome.Text + "';";
                 }
 
                 DataTable dados = new DataTable();
-                SqlCeDataAdapter adaptador = new SqlCeDataAdapter(query, strConection);
+                MySqlDataAdapter adaptador = new MySqlDataAdapter(query, strConnection);
 
                 conexao.Open();
 
