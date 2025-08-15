@@ -178,6 +178,7 @@
             this.btnExcluir.TabIndex = 10;
             this.btnExcluir.Text = "excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnEditar
             // 
