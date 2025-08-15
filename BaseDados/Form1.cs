@@ -286,35 +286,35 @@ namespace BaseDados
             #endregion
 
             #region MySQL
-            //string strConnection = "server=127.0.0.1;User Id=root;database=curso_db;password=";
+            string strConnection = "server=127.0.0.1;User Id=root;database=curso_db;password=";
 
-            //MySqlConnection conexao = new MySqlConnection(strConnection);
+            MySqlConnection conexao = new MySqlConnection(strConnection);
 
-            //try
-            //{
-            //    conexao.Open();
+            try
+            {
+                conexao.Open();
 
-            //    MySqlCommand comando = new MySqlCommand();
-            //    comando.Connection = conexao;
+                MySqlCommand comando = new MySqlCommand();
+                comando.Connection = conexao;
 
-            //    int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
-            //    string nome = txtNome.Text;
-            //    string email = txtEmail.Text;
+                int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
+                string nome = txtNome.Text;
+                string email = txtEmail.Text;
 
-            //    comando.CommandText = $"INSERT INTO pessoas VALUES({id}, '{nome}', '{email}');";
-            //    comando.ExecuteNonQuery();
+                comando.CommandText = $"INSERT INTO pessoas VALUES({id}, '{nome}', '{email}');";
+                comando.ExecuteNonQuery();
 
-            //    labelResultado.Text = "Registro inserido MySQL";
-            //    comando.Dispose();
-            //}
-            //catch (Exception ex)
-            //{
-            //    labelResultado.Text = ex.Message;
-            //}
-            //finally
-            //{
-            //    conexao.Close();
-            //}
+                labelResultado.Text = "Registro inserido MySQL";
+                comando.Dispose();
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = ex.Message;
+            }
+            finally
+            {
+                conexao.Close();
+            }
             #endregion
         }
 
@@ -407,42 +407,42 @@ namespace BaseDados
             #endregion
 
             #region MySQL
-            //string strConnection = "server=127.0.0.1;User Id=root;database=curso_db;password=";
+            string strConnection = "server=127.0.0.1;User Id=root;database=curso_db;password=";
 
-            //MySqlConnection conexao = new MySqlConnection(strConnection);
+            MySqlConnection conexao = new MySqlConnection(strConnection);
 
-            //try
-            //{
+            try
+            {
 
-            //    string query = "SELECT * FROM pessoas";
+                string query = "SELECT * FROM pessoas";
 
-            //    if (txtNome.Text != "")
-            //    {
-            //        query = "SELECT * FROM pessoas WHERE nome LIKE '" + txtNome.Text + "';";
-            //    }
+                if (txtNome.Text != "")
+                {
+                    query = "SELECT * FROM pessoas WHERE nome LIKE '" + txtNome.Text + "';";
+                }
 
-            //    DataTable dados = new DataTable();
-            //    MySqlDataAdapter adaptador = new MySqlDataAdapter(query, strConnection);
+                DataTable dados = new DataTable();
+                MySqlDataAdapter adaptador = new MySqlDataAdapter(query, strConnection);
 
-            //    conexao.Open();
+                conexao.Open();
 
-            //    adaptador.Fill(dados);
+                adaptador.Fill(dados);
 
-            //    foreach (DataRow linha in dados.Rows)
-            //    {
-            //        lista.Rows.Add(linha.ItemArray);
-            //    }
+                foreach (DataRow linha in dados.Rows)
+                {
+                    lista.Rows.Add(linha.ItemArray);
+                }
 
-            //}
-            //catch (Exception ex)
-            //{
-            //    lista.Rows.Clear();
-            //    labelResultado.Text = ex.Message;
-            //}
-            //finally
-            //{
-            //    conexao.Close();
-            //}
+            }
+            catch (Exception ex)
+            {
+                lista.Rows.Clear();
+                labelResultado.Text = ex.Message;
+            }
+            finally
+            {
+                conexao.Close();
+            }
             #endregion
         }
 
@@ -513,35 +513,34 @@ namespace BaseDados
             #endregion
 
             #region MySQL
-            //string strConnection = "server=127.0.0.1;User Id=root;database=curso_db;password=";
+            string strConnection = "server=127.0.0.1;User Id=root;database=curso_db;password=";
 
-            //MySqlConnection conexao = new MySqlConnection(strConnection);
+            MySqlConnection conexao = new MySqlConnection(strConnection);
 
-            //try
-            //{
-            //    conexao.Open();
+            try
+            {
+                conexao.Open();
 
-            //    MySqlCommand comando = new MySqlCommand();
-            //    comando.Connection = conexao;
+                MySqlCommand comando = new MySqlCommand();
+                comando.Connection = conexao;
 
-            //    int id = new Random(DateTime.Now.Millisecond).Next(0, 1000);
-            //    string nome = txtNome.Text;
-            //    string email = txtEmail.Text;
+                int id = (int)lista.SelectedRows[0].Cells[0].Value;
 
-            //    comando.CommandText = $"INSERT INTO pessoas VALUES({id}, '{nome}', '{email}');";
-            //    comando.ExecuteNonQuery();
+                comando.CommandText = $"DELETE FROM pessoas WHERE id = {id};"; 
+                comando.ExecuteNonQuery();
 
-            //    labelResultado.Text = "Registro inserido MySQL";
-            //    comando.Dispose();
-            //}
-            //catch (Exception ex)
-            //{
-            //    labelResultado.Text = ex.Message;
-            //}
-            //finally
-            //{
-            //    conexao.Close();
-            //}
+                labelResultado.Text = "Registro excluído MySQL";
+               // btnProcurar_Click(sender, e);
+                comando.Dispose();
+            }
+            catch (Exception ex)
+            {
+                labelResultado.Text = ex.Message;
+            }
+            finally
+            {
+                conexao.Close();
+            }
             #endregion
         }
     }
