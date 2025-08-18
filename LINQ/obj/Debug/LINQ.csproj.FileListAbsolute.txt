@@ -1,0 +1,11 @@
+C:\Users\vitor\Desktop\Curso-C#\LINQ\bin\Debug\LINQ.exe.config
+C:\Users\vitor\Desktop\Curso-C#\LINQ\bin\Debug\LINQ.exe
+C:\Users\vitor\Desktop\Curso-C#\LINQ\bin\Debug\LINQ.pdb
+C:\Users\vitor\Desktop\Curso-C#\LINQ\obj\Debug\LINQ.csproj.AssemblyReference.cache
+C:\Users\vitor\Desktop\Curso-C#\LINQ\obj\Debug\LINQ.Form1.resources
+C:\Users\vitor\Desktop\Curso-C#\LINQ\obj\Debug\LINQ.Properties.Resources.resources
+C:\Users\vitor\Desktop\Curso-C#\LINQ\obj\Debug\LINQ.csproj.GenerateResource.cache
+C:\Users\vitor\Desktop\Curso-C#\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Desktop\Curso-C#\LINQ\obj\Debug\LINQ.exe
+C:\Users\vitor\Desktop\Curso-C#\LINQ\obj\Debug\LINQ.pdb
+C:\Users\vitor\Desktop\Curso-C#\LINQ\obj\Debug\LINQ.exe.config
