@@ -15,7 +15,7 @@ namespace LINQ
 
         List<string> lista_nomes;
         List<int> lista_numeros;
-        Dictionary<string, double> produtos;
+        Dictionary<string, double> lista_produtos;
         Dictionary<string, string> lista_estados;
 
         public Form1()
@@ -58,18 +58,18 @@ namespace LINQ
             #endregion
 
             #region Lista Produtos
-            produtos = new Dictionary<string, double>();
+            lista_produtos = new Dictionary<string, double>();
 
-            produtos.Add("Abajur", 200);
-            produtos.Add("Bala", 0.5);
-            produtos.Add("Capacete", 439.90);
-            produtos.Add("Doritos", 7.25);
-            produtos.Add("Esmalte", 5.60);
-            produtos.Add("Faca", 37);
-            produtos.Add("Galaxy", 3978.30);
-            produtos.Add("Cadeira", 299);
-            produtos.Add("Mesa", 670);
-            produtos.Add("TV", 3850.70);
+            lista_produtos.Add("Abajur", 200);
+            lista_produtos.Add("Bala", 0.5);
+            lista_produtos.Add("Capacete", 439.90);
+            lista_produtos.Add("Doritos", 7.25);
+            lista_produtos.Add("Esmalte", 5.60);
+            lista_produtos.Add("Faca", 37);
+            lista_produtos.Add("Galaxy", 3978.30);
+            lista_produtos.Add("Cadeira", 299);
+            lista_produtos.Add("Mesa", 670);
+            lista_produtos.Add("TV", 3850.70);
 
 
             #endregion
@@ -126,6 +126,53 @@ namespace LINQ
             #endregion
 
 
+        }
+
+        private void btnWhere_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            string txt = txtConsulta.Text.ToLower();
+
+            var res = from nome in lista_nomes 
+                      where nome.ToLower().Contains(txt) 
+                      select nome;
+
+            lista.Items.AddRange(res.ToArray());    
+        }
+
+        private void btnOrderBy_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+
+            //var txtNum = Convert.ToInt32(txtConsulta.Text);
+            var txtNome = txtConsulta.Text;
+
+            //Ordenando Lista de números
+
+            //var resNum = from num in lista_numeros 
+            //          orderby num descending 
+            //          where num >= txtNum 
+            //          select num;
+
+            //foreach(var item in resNum)
+            //{
+            //    lista.Items.Add(item);
+            //}
+
+            //var resNome = from nome in lista_nomes
+            //              orderby nome descending
+            //              select nome;
+
+            var resProduto = from produto in lista_produtos
+                             orderby produto.Value
+                             select produto;
+
+            foreach (KeyValuePair<string, double> produto in resProduto)
+            {
+                lista.Items.Add(produto.Key + " R$" + produto.Value);
+            }
         }
     }
 }
