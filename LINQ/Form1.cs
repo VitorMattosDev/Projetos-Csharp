@@ -174,5 +174,36 @@ namespace LINQ
                 lista.Items.Add(produto.Key + " R$" + produto.Value);
             }
         }
+
+        private void btnGroupBy_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            txtConsulta.Text = "";
+
+            /*
+             * No Dictionary vai ordenar pelo Value (País)
+             * e vai retornar um tipo IEnumerable<IGrouping<string,KeyValuePair<string, string>>>
+             * onde a primeira Key do tipo string é o estado.Value. O Value é o 
+             * próprio Dictionary
+             */
+            var res = from estado in lista_estados
+                      group estado by estado.Value;
+
+            foreach (var item in res)
+            {
+                /*Percorrendo o IEnumerable<IGrouping<string,KeyValuePair<string, string>>> res e retornando a Key (estado.Value)
+                 */
+                lista.Items.Add(item.Key);
+
+                foreach(var estado in item)
+                {
+                    //Percorrendo o IGrouping e retornando o Value (KeyValuePair<string, string>)
+                    lista.Items.Add(estado.Key);
+                }
+
+                lista.Items.Add("");
+            }
+        }
     }
 }

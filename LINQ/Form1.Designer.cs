@@ -33,6 +33,8 @@
             this.btnExecutar = new System.Windows.Forms.Button();
             this.btnWhere = new System.Windows.Forms.Button();
             this.btnOrderBy = new System.Windows.Forms.Button();
+            this.btnGroupBy = new System.Windows.Forms.Button();
+            this.btnAgregacao = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -42,7 +44,7 @@
             this.lista.ItemHeight = 31;
             this.lista.Location = new System.Drawing.Point(12, 12);
             this.lista.Name = "lista";
-            this.lista.Size = new System.Drawing.Size(490, 407);
+            this.lista.Size = new System.Drawing.Size(490, 500);
             this.lista.TabIndex = 0;
             // 
             // txtConsulta
@@ -86,11 +88,34 @@
             this.btnOrderBy.UseVisualStyleBackColor = true;
             this.btnOrderBy.Click += new System.EventHandler(this.btnOrderBy_Click);
             // 
+            // btnGroupBy
+            // 
+            this.btnGroupBy.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGroupBy.Location = new System.Drawing.Point(559, 338);
+            this.btnGroupBy.Name = "btnGroupBy";
+            this.btnGroupBy.Size = new System.Drawing.Size(229, 82);
+            this.btnGroupBy.TabIndex = 5;
+            this.btnGroupBy.Text = "GroupBy";
+            this.btnGroupBy.UseVisualStyleBackColor = true;
+            this.btnGroupBy.Click += new System.EventHandler(this.btnGroupBy_Click);
+            // 
+            // btnAgregacao
+            // 
+            this.btnAgregacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregacao.Location = new System.Drawing.Point(559, 426);
+            this.btnAgregacao.Name = "btnAgregacao";
+            this.btnAgregacao.Size = new System.Drawing.Size(229, 82);
+            this.btnAgregacao.TabIndex = 6;
+            this.btnAgregacao.Text = "Operadores de Agregação";
+            this.btnAgregacao.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 538);
+            this.Controls.Add(this.btnAgregacao);
+            this.Controls.Add(this.btnGroupBy);
             this.Controls.Add(this.btnOrderBy);
             this.Controls.Add(this.btnWhere);
             this.Controls.Add(this.btnExecutar);
@@ -110,6 +135,8 @@
         private System.Windows.Forms.Button btnExecutar;
         private System.Windows.Forms.Button btnWhere;
         private System.Windows.Forms.Button btnOrderBy;
+        private System.Windows.Forms.Button btnGroupBy;
+        private System.Windows.Forms.Button btnAgregacao;
     }
 }
 
