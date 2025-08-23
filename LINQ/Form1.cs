@@ -205,5 +205,58 @@ namespace LINQ
                 lista.Items.Add("");
             }
         }
+
+        private void btnAgregacao_Click(object sender, EventArgs e)
+        {
+            // -------CONTANDO ELEMENTOS--------
+            //int cont1 = lista_nomes.Count();
+
+            //int cont2 = (from nome in lista_nomes
+            //            where nome.StartsWith("G")
+            //            select nome).Count();
+
+            //lista.Items.Add(cont2 + " Começam com G");
+
+
+            // -------MÉDIA ELEMENTOS--------
+            //double media1 = lista_numeros.Average();
+
+            //var media2 = (from numero in lista_numeros
+            //             select numero).Average();
+
+            //lista.Items.Add(media2 + " - Média dos valores");
+
+
+            // -------SOMA ELEMENTOS--------
+            //int soma1 = lista_numeros.Sum();
+
+            //var soma2 = (from numero in lista_numeros
+            //            select numero).Sum();
+            //lista.Items.Add(soma2 + " - Soma dos valores");
+
+
+            // -------VALOR MÍNIMO E MÁXIMO--------
+            //lista.Items.Add(lista_numeros.Max() + " É o maior");
+            //lista.Items.Add(lista_numeros.Min() + " É o menor");
+
+
+            // -------OPERADOR AGGREGATE--------
+
+            var maiorNome = lista_nomes.Aggregate(lista_nomes[0], (maior, proximo) =>
+            {
+                if (maior.Length > proximo.Length)
+                {
+                    return maior;
+                }
+                else
+                {
+                    return proximo;
+                }
+
+            });
+
+            lista.Items.Add(maiorNome + " é o maior nome");
+
+        }
     }
 }

@@ -108,6 +108,7 @@
             this.btnAgregacao.TabIndex = 6;
             this.btnAgregacao.Text = "Operadores de Agregação";
             this.btnAgregacao.UseVisualStyleBackColor = true;
+            this.btnAgregacao.Click += new System.EventHandler(this.btnAgregacao_Click);
             // 
             // Form1
             // 
