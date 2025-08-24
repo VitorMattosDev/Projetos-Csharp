@@ -35,6 +35,8 @@
             this.btnOrderBy = new System.Windows.Forms.Button();
             this.btnGroupBy = new System.Windows.Forms.Button();
             this.btnAgregacao = new System.Windows.Forms.Button();
+            this.btnOperadoresDeElemento = new System.Windows.Forms.Button();
+            this.btnLINQLambda = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lista
@@ -44,7 +46,7 @@
             this.lista.ItemHeight = 31;
             this.lista.Location = new System.Drawing.Point(12, 12);
             this.lista.Name = "lista";
-            this.lista.Size = new System.Drawing.Size(490, 500);
+            this.lista.Size = new System.Drawing.Size(490, 593);
             this.lista.TabIndex = 0;
             // 
             // txtConsulta
@@ -110,11 +112,35 @@
             this.btnAgregacao.UseVisualStyleBackColor = true;
             this.btnAgregacao.Click += new System.EventHandler(this.btnAgregacao_Click);
             // 
+            // btnOperadoresDeElemento
+            // 
+            this.btnOperadoresDeElemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOperadoresDeElemento.Location = new System.Drawing.Point(559, 514);
+            this.btnOperadoresDeElemento.Name = "btnOperadoresDeElemento";
+            this.btnOperadoresDeElemento.Size = new System.Drawing.Size(229, 82);
+            this.btnOperadoresDeElemento.TabIndex = 7;
+            this.btnOperadoresDeElemento.Text = "Operadores de Elemento";
+            this.btnOperadoresDeElemento.UseVisualStyleBackColor = true;
+            this.btnOperadoresDeElemento.Click += new System.EventHandler(this.btnOperadoresDeElemento_Click);
+            // 
+            // btnLINQLambda
+            // 
+            this.btnLINQLambda.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLINQLambda.Location = new System.Drawing.Point(559, 602);
+            this.btnLINQLambda.Name = "btnLINQLambda";
+            this.btnLINQLambda.Size = new System.Drawing.Size(229, 82);
+            this.btnLINQLambda.TabIndex = 8;
+            this.btnLINQLambda.Text = "LINQ";
+            this.btnLINQLambda.UseVisualStyleBackColor = true;
+            this.btnLINQLambda.Click += new System.EventHandler(this.btnLINQLambda_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 538);
+            this.ClientSize = new System.Drawing.Size(800, 725);
+            this.Controls.Add(this.btnLINQLambda);
+            this.Controls.Add(this.btnOperadoresDeElemento);
             this.Controls.Add(this.btnAgregacao);
             this.Controls.Add(this.btnGroupBy);
             this.Controls.Add(this.btnOrderBy);
@@ -138,6 +164,8 @@
         private System.Windows.Forms.Button btnOrderBy;
         private System.Windows.Forms.Button btnGroupBy;
         private System.Windows.Forms.Button btnAgregacao;
+        private System.Windows.Forms.Button btnOperadoresDeElemento;
+        private System.Windows.Forms.Button btnLINQLambda;
     }
 }
 

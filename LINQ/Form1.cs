@@ -258,5 +258,60 @@ namespace LINQ
             lista.Items.Add(maiorNome + " é o maior nome");
 
         }
+
+        private void btnOperadoresDeElemento_Click(object sender, EventArgs e)
+        {
+            lista.Items.Clear();
+
+            //int primeiro = lista_numeros.First();  //Vai dar erro se a lista estiver vazia
+            int primeiro2 = lista_numeros.FirstOrDefault(); //Não dá erro se lista estiver vazia (retorna 0)
+
+            //int ultimo = lista_numeros.Last();
+            int ultimo2 = lista_numeros.LastOrDefault();
+
+            //int elementoPosicao = lista_numeros.ElementAt(3);
+            int elementoPosicao2 = lista_numeros.ElementAt(3);
+
+            var consultaPosicao = (from num in lista_numeros
+                                  where num > 1000
+                                  select num).ElementAtOrDefault(2);
+
+
+
+            lista.Items.Add(primeiro2); 
+            lista.Items.Add(ultimo2);
+            lista.Items.Add(elementoPosicao2);
+            lista.Items.Add(consultaPosicao);
+
+        }
+
+        private void btnLINQLambda_Click(object sender, EventArgs e)
+        {
+            //var cons1 = from nomes in lista_nomes select nomes;
+            //var cons2 = lista_nomes.Select(nome => nome); //Lambda que equivale à consulta LINQ em cons1
+            //lista.Items.AddRange(cons2.ToArray());
+
+            //var cons3 = from nomes in lista_nomes where nomes.StartsWith("B") select nomes;
+            //var cons4 = lista_nomes.Where(nome => (nome.StartsWith("G")));
+            //lista.Items.AddRange(cons4.ToArray());
+
+            //var cons5 = from nomes in lista_nomes orderby nomes descending select nomes;
+            //var cons6 = lista_nomes.OrderByDescending(nome => nome);
+            //lista.Items.AddRange(cons6.ToArray());
+
+            var cons7 = from pais in lista_estados group pais by pais.Value;
+            var cons8 = lista_estados.GroupBy(pais => pais.Value);
+
+            foreach(var pais in cons8)
+            {
+                lista.Items.Add(pais.Key);
+
+                foreach(var estado in pais)
+                {
+                    lista.Items.Add("    " + estado.Key);
+                }
+            }
+
+        }
     }
 }
